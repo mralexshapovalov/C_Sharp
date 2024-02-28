@@ -45,6 +45,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relationships\Aggregation\Engine.cs" />
+    <Compile Include="Relationships\Association\Player.cs" />
+    <Compile Include="Relationships\Association\Team.cs" />
+    <Compile Include="Relationships\Composition\Car.cs" />
+    <Compile Include="Relationships\Composition\ElectricEngine.cs" />
+    <Compile Include="Relationships\Inheritance\Manager.cs" />
+    <Compile Include="Relationships\Inheritance\User.cs" />
+    <Compile Include="Relationships\Realization\Car.cs" />
+    <Compile Include="Relationships\Realization\IMovable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
